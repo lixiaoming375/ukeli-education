@@ -1,3 +1,3 @@
 class myFirstJavaFile{
-sysout("testestetest")
+sysout("testestetest");
 }
