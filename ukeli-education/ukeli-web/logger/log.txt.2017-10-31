@@ -1,0 +1,270 @@
+2017-10-31 10:59:49   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5484 (F:\Project\shop-git\ukeli-education\ukeli-web\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-web)
+2017-10-31 10:59:50   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 10:59:50   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 10:59:56   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 10:59:56   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 10:59:56   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 10:59:56   INFO  [localhost-startStop-1][WebFilerConfig.java:52] - 初始化filter参数:{ignore=/index.html,/login.json,/forbidden.html,/404.html}
+2017-10-31 11:00:00   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-31 11:00:00   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-31 11:00:00   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 11:00:00   INFO  [main][StartupInfoLogger.java:57] - Started Application in 12.875 seconds (JVM running for 15.404)
+2017-10-31 11:00:52   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 11:00:52   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-10-31 11:01:04   INFO  [http-nio-9999-exec-5][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 11:01:04   INFO  [http-nio-9999-exec-5][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 11:01:05   INFO  [http-nio-9999-exec-1][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-1][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-5][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-1][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@1c22dde1[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-5][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@36373799[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-6][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-6][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-6][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@61080ca[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-10][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-10][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 11:01:06   INFO  [http-nio-9999-exec-10][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@6db9fd62[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 11:01:08   ERROR [http-nio-9999-exec-1][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   ERROR [http-nio-9999-exec-6][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   ERROR [http-nio-9999-exec-5][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   DEBUG [http-nio-9999-exec-1][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   DEBUG [http-nio-9999-exec-5][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   ERROR [http-nio-9999-exec-10][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   DEBUG [http-nio-9999-exec-10][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:01:08   DEBUG [http-nio-9999-exec-6][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 11:02:36   INFO  [http-nio-9999-exec-10][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 11:02:36   INFO  [http-nio-9999-exec-10][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 11:02:36   INFO  [http-nio-9999-exec-10][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@62ad4ff3[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 11:02:36   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-10-31 11:02:39   INFO  [http-nio-9999-exec-10][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:02:39   INFO  [http-nio-9999-exec-10][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:02:39   INFO  [http-nio-9999-exec-10][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:02:39   INFO  [http-nio-9999-exec-10][KnowledgeController.java:63] - id=1
+2017-10-31 11:02:40   INFO  [http-nio-9999-exec-10][SubjectServiceImpl.java:286] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s.id  in (SELECT subjectid from t_subject_vtype where vtype=?)   and  s. id=ks.subjectid order by ks.serial asc;
+2017-10-31 11:02:42   INFO  [http-nio-9999-exec-4][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:02:43   INFO  [http-nio-9999-exec-4][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:02:43   INFO  [http-nio-9999-exec-4][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:02:43   INFO  [http-nio-9999-exec-4][QuestionRestController.java:108] - 获取status=-1,start=0,limit=5,relationid=1,vtype=39
+2017-10-31 11:06:41   INFO  [http-nio-9999-exec-7][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:06:41   INFO  [http-nio-9999-exec-7][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:41   INFO  [http-nio-9999-exec-7][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:41   INFO  [http-nio-9999-exec-7][QuestionController.java:54] - 系统进入问答:
+2017-10-31 11:06:43   INFO  [http-nio-9999-exec-8][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:06:43   INFO  [http-nio-9999-exec-8][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:43   INFO  [http-nio-9999-exec-8][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:43   INFO  [http-nio-9999-exec-8][QuestionRestController.java:108] - 获取status=-1,start=0,limit=5,relationid=0,vtype=33
+2017-10-31 11:06:52   INFO  [http-nio-9999-exec-5][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:06:52   INFO  [http-nio-9999-exec-5][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:52   INFO  [http-nio-9999-exec-5][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:06:52   INFO  [http-nio-9999-exec-5][QuestionRestController.java:108] - 获取status=-1,start=5,limit=5,relationid=0,vtype=33
+2017-10-31 11:07:01   INFO  [http-nio-9999-exec-6][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 11:07:01   INFO  [http-nio-9999-exec-6][UserFilter.java:95] - cookies中的用户sessionid:70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 11:07:01   INFO  [http-nio-9999-exec-6][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 15:58:41   INFO  [http-nio-9999-exec-8][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 15:58:41   INFO  [http-nio-9999-exec-8][UserFilter.java:95] - cookies中的用户sessionid:6012D8D8A7365AD1EDC04AC7B4CE1BB2
+2017-10-31 15:58:41   INFO  [http-nio-9999-exec-8][UserFilter.java:97] - 缓存中的sessionid=70A566BC4680D0845B6F64A17B852BF3
+2017-10-31 15:58:41   DEBUG [http-nio-9999-exec-8][UserFilter.java:105] - path=http://localhost:9999,loginUrl=/forbidden.html
+2017-10-31 15:58:44   ERROR [http-nio-9999-exec-9][Encrypt.java:274] - 使用bsae64方式进行反编码，将String类型转换成byte类型数组发生错误:Input byte[] should at least have 2 bytes for base64 bytes
+2017-10-31 15:58:44   DEBUG [http-nio-9999-exec-9][Encrypt.java:275] - 
+java.lang.IllegalArgumentException: Input byte[] should at least have 2 bytes for base64 bytes
+	at java.util.Base64$Decoder.outLength(Base64.java:659) ~[?:1.8.0_121]
+	at java.util.Base64$Decoder.decode(Base64.java:525) ~[?:1.8.0_121]
+	at java.util.Base64$Decoder.decode(Base64.java:549) ~[?:1.8.0_121]
+	at cn.javaworker.yeming.core.util.Encrypt.decodeBase64(Encrypt.java:272) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.util.Encrypt.decodeBase643Des(Encrypt.java:74) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.web.CookiesUtil.getInt3Des(CookiesUtil.java:246) [core-web-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.filter.UserFilter.doFilter(UserFilter.java:88) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2017-10-31 15:58:44   DEBUG [http-nio-9999-exec-9][Encrypt.java:256] - 使用3des方式进行对数据进行解密:Null input buffer
+2017-10-31 15:58:44   DEBUG [http-nio-9999-exec-9][Encrypt.java:257] - 
+java.lang.IllegalArgumentException: Null input buffer
+	at javax.crypto.Cipher.doFinal(Cipher.java:2161) ~[?:1.8.0_121]
+	at cn.javaworker.yeming.core.util.Encrypt.decryptMode3Des(Encrypt.java:254) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.util.Encrypt.decryptMode3Des(Encrypt.java:172) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.util.Encrypt.decryptMode3Des(Encrypt.java:148) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.util.Encrypt.decodeBase643Des(Encrypt.java:75) [core-util-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.core.web.CookiesUtil.getInt3Des(CookiesUtil.java:246) [core-web-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.filter.UserFilter.doFilter(UserFilter.java:88) [classes/:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2017-10-31 15:58:44   ERROR [http-nio-9999-exec-9][UserFilter.java:90] - 从cookies中获取用户信息发生错误:null
+2017-10-31 15:58:44   INFO  [http-nio-9999-exec-9][UserFilter.java:92] - cookies中的用户id:0
+2017-10-31 15:58:44   DEBUG [http-nio-9999-exec-9][UserFilter.java:105] - path=http://localhost:9999,loginUrl=/forbidden.html
+2017-10-31 16:43:36   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-31 19:20:19   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5828 (F:\Project\shop-git\ukeli-education\ukeli-web\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-web)
+2017-10-31 19:20:20   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 19:20:20   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 19:20:24   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 19:20:24   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 19:20:24   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 19:20:24   INFO  [localhost-startStop-1][WebFilerConfig.java:52] - 初始化filter参数:{ignore=/index.html,/login.json,/forbidden.html,/404.html}
+2017-10-31 19:20:28   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-31 19:20:28   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-31 19:20:28   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 19:20:28   INFO  [main][StartupInfoLogger.java:57] - Started Application in 11.343 seconds (JVM running for 14.367)
+2017-10-31 19:24:19   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 19:24:19   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-10-31 19:24:28   INFO  [http-nio-9999-exec-10][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:28   INFO  [http-nio-9999-exec-10][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-10][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-10][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@54c5511c[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-1][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-1][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-1][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@63f3f99f[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-6][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-6][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:30   INFO  [http-nio-9999-exec-6][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@1afe4ae4[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:32   ERROR [http-nio-9999-exec-1][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-5][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:32   ERROR [http-nio-9999-exec-10][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:32   ERROR [http-nio-9999-exec-6][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:33   DEBUG [http-nio-9999-exec-1][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:33   DEBUG [http-nio-9999-exec-6][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:33   DEBUG [http-nio-9999-exec-10][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-4][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-5][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-5][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@778298b3[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-4][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-4][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@58a058d5[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-2][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-2][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:24:33   INFO  [http-nio-9999-exec-2][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@b9bbb28[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:24:34   ERROR [http-nio-9999-exec-5][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:34   ERROR [http-nio-9999-exec-2][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:34   DEBUG [http-nio-9999-exec-5][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:34   DEBUG [http-nio-9999-exec-2][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:34   ERROR [http-nio-9999-exec-4][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:24:34   DEBUG [http-nio-9999-exec-4][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 19:25:16   INFO  [http-nio-9999-exec-9][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-10-31 19:25:16   INFO  [http-nio-9999-exec-9][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 19:25:16   INFO  [http-nio-9999-exec-9][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@553465db[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-10-31 19:25:16   INFO  [http-nio-9999-exec-8][IndexConttoller.java:45] - 系统进入首页:
+2017-10-31 19:25:27   INFO  [http-nio-9999-exec-9][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:27   INFO  [http-nio-9999-exec-9][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:27   INFO  [http-nio-9999-exec-9][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:27   INFO  [http-nio-9999-exec-9][KnowledgeController.java:63] - id=1
+2017-10-31 19:25:28   INFO  [http-nio-9999-exec-9][SubjectServiceImpl.java:286] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s.id  in (SELECT subjectid from t_subject_vtype where vtype=?)   and  s. id=ks.subjectid order by ks.serial asc;
+2017-10-31 19:25:29   INFO  [http-nio-9999-exec-7][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:29   INFO  [http-nio-9999-exec-7][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:29   INFO  [http-nio-9999-exec-7][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:29   INFO  [http-nio-9999-exec-7][QuestionRestController.java:108] - 获取status=-1,start=0,limit=5,relationid=1,vtype=39
+2017-10-31 19:25:33   INFO  [http-nio-9999-exec-3][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:33   INFO  [http-nio-9999-exec-3][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:33   INFO  [http-nio-9999-exec-3][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:33   INFO  [http-nio-9999-exec-3][KnowledgeController.java:98] - id=5
+2017-10-31 19:25:34   INFO  [http-nio-9999-exec-3][SubjectServiceImpl.java:286] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s.id  in (SELECT subjectid from t_subject_vtype where vtype=?)   and  s. id=ks.subjectid order by ks.serial asc;
+2017-10-31 19:25:35   INFO  [http-nio-9999-exec-8][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:35   INFO  [http-nio-9999-exec-8][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:35   INFO  [http-nio-9999-exec-8][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:35   INFO  [http-nio-9999-exec-8][QuestionRestController.java:108] - 获取status=-1,start=0,limit=5,relationid=5,vtype=40
+2017-10-31 19:25:36   INFO  [http-nio-9999-exec-10][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:36   INFO  [http-nio-9999-exec-10][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:36   INFO  [http-nio-9999-exec-10][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:36   INFO  [http-nio-9999-exec-10][KnowledgeController.java:98] - id=2
+2017-10-31 19:25:37   INFO  [http-nio-9999-exec-10][SubjectServiceImpl.java:286] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s.id  in (SELECT subjectid from t_subject_vtype where vtype=?)   and  s. id=ks.subjectid order by ks.serial asc;
+2017-10-31 19:25:37   INFO  [http-nio-9999-exec-2][UserFilter.java:92] - cookies中的用户id:1
+2017-10-31 19:25:37   INFO  [http-nio-9999-exec-2][UserFilter.java:95] - cookies中的用户sessionid:9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:37   INFO  [http-nio-9999-exec-2][UserFilter.java:97] - 缓存中的sessionid=9297982495F726BDC4037C406FC0A66D
+2017-10-31 19:25:37   INFO  [http-nio-9999-exec-2][QuestionRestController.java:108] - 获取status=-1,start=0,limit=5,relationid=2,vtype=40
+2017-10-31 19:33:43   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

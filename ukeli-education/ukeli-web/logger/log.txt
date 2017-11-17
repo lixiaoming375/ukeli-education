@@ -1,0 +1,46 @@
+2017-11-01 09:37:53   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 7024 (F:\Project\shop-git\ukeli-education\ukeli-web\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-web)
+2017-11-01 09:37:53   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-11-01 09:37:53   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-11-01 09:38:01   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-11-01 09:38:01   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-11-01 09:38:01   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-11-01 09:38:01   INFO  [localhost-startStop-1][WebFilerConfig.java:52] - 初始化filter参数:{ignore=/index.html,/login.json,/forbidden.html,/404.html}
+2017-11-01 09:38:05   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-11-01 09:38:05   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-11-01 09:38:05   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-11-01 09:38:05   INFO  [main][StartupInfoLogger.java:57] - Started Application in 13.99 seconds (JVM running for 17.891)
+2017-11-01 09:38:19   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-11-01 09:38:19   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-11-01 09:38:27   INFO  [http-nio-9999-exec-8][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-11-01 09:38:27   INFO  [http-nio-9999-exec-8][DruidDataSource.java:847] - {dataSource-1} inited
+2017-11-01 09:38:29   INFO  [http-nio-9999-exec-8][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-11-01 09:38:29   INFO  [http-nio-9999-exec-8][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@3b77ff9f[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-11-01 09:38:29   INFO  [http-nio-9999-exec-5][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-11-01 09:38:30   INFO  [http-nio-9999-exec-5][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-11-01 09:38:30   INFO  [http-nio-9999-exec-5][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@2587d72c[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-11-01 09:38:31   ERROR [http-nio-9999-exec-8][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:38:31   DEBUG [http-nio-9999-exec-8][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:38:31   ERROR [http-nio-9999-exec-5][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:38:31   DEBUG [http-nio-9999-exec-5][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:38:34   INFO  [http-nio-9999-exec-6][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-11-01 09:38:34   INFO  [http-nio-9999-exec-6][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-11-01 09:38:34   INFO  [http-nio-9999-exec-6][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@6ef2f094[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-11-01 09:38:35   ERROR [http-nio-9999-exec-6][CommonRestController.java:104] - 用户登录时间发生错误:Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:38:35   DEBUG [http-nio-9999-exec-6][CommonRestController.java:105] - org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-11-01 09:39:02   INFO  [http-nio-9999-exec-1][CommonRestController.java:63] - 用户登录:username=18221575067,password=123456
+2017-11-01 09:39:04   INFO  [http-nio-9999-exec-1][CommonRestController.java:80] - pass=d9fba5ca345c4bcbf941ea37c4e836aa
+2017-11-01 09:39:04   INFO  [http-nio-9999-exec-1][CommonRestController.java:93] - userDo=cn.javaworker.yeming.ukeli.pojo.UserDo@27df4f2[username=18221575067,password=d9fba5ca345c4bcbf941ea37c4e836aa,nickname=哈哈哈,realname=滕 测试,bidthday=2017-09-29,sex=2,telephone=18221575068,mobile=18221575065,email=2412019951@qq.com,address=地址信息地址信息地址信息地址信息,postcode=123456@163.com,firstletter=<null>,spell=<null>,allspell=<null>,detail=备注
+备注
+备注
+备注,wechat=<null>,qq=<null>,headpic=<null>,vcode=<null>,inventcode=<null>,logintimes=0,lastlogintime=<null>,lastloginip=<null>,platform=<null>,isvip=0,vipstarttime=2017-09-25 16:09:00.0,vipendtime=2017-10-07 16:10:55.0,ext_addtime=2017-09-25 16:16:49.0,id=1,iorder=1,status=1,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=2017-09-25 16:16:49.0,edittime=2017-09-25 16:26:28.0,slock=0]
+2017-11-01 09:39:04   INFO  [http-nio-9999-exec-4][IndexConttoller.java:45] - 系统进入首页:
+2017-11-01 10:18:43   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

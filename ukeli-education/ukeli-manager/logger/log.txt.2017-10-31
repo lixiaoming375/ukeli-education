@@ -1,0 +1,1086 @@
+2017-10-31 09:26:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/knowledge/page.html,pathInfo=
+2017-10-31 09:26:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:26:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:26:39   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:26:40   ERROR [http-nio-9998-exec-7][AuthorizationFilter.java:110] - 检查时间发生错误:Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+2017-10-31 09:26:40   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:111] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.1.0.jar:1.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at cn.javaworker.yeming.core.web.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:107) [core-web-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: org.springframework.data.redis.RedisConnectionFailureException: Cannot get Jedis connection; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:204) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:43) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl.getListByTypeid(ClazzServiceImpl.java:421) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$FastClassBySpringCGLIB$$1ce9def.invoke(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$EnhancerBySpringCGLIB$$59b735f.getListByTypeid(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.controller.KnowledgeController.page(KnowledgeController.java:65) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:53) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16) ~[jedis-2.9.0.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:43) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl.getListByTypeid(ClazzServiceImpl.java:421) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$FastClassBySpringCGLIB$$1ce9def.invoke(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$EnhancerBySpringCGLIB$$59b735f.getListByTypeid(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.controller.KnowledgeController.page(KnowledgeController.java:65) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused: connect
+	at redis.clients.jedis.Connection.connect(Connection.java:207) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106) ~[jedis-2.9.0.jar:?]
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at redis.clients.util.Pool.getResource(Pool.java:49) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16) ~[jedis-2.9.0.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:43) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl.getListByTypeid(ClazzServiceImpl.java:421) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$FastClassBySpringCGLIB$$1ce9def.invoke(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$EnhancerBySpringCGLIB$$59b735f.getListByTypeid(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.controller.KnowledgeController.page(KnowledgeController.java:65) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at redis.clients.jedis.Connection.connect(Connection.java:184) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:93) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1767) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:106) ~[jedis-2.9.0.jar:?]
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:868) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363) ~[commons-pool2-2.4.2.jar:2.4.2]
+	at redis.clients.util.Pool.getResource(Pool.java:49) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:226) ~[jedis-2.9.0.jar:?]
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:16) ~[jedis-2.9.0.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.fetchJedisConnector(JedisConnectionFactory.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.connection.jedis.JedisConnectionFactory.getConnection(JedisConnectionFactory.java:348) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:129) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:92) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:79) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:194) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at org.springframework.data.redis.core.DefaultValueOperations.get(DefaultValueOperations.java:43) ~[spring-data-redis-1.8.1.RELEASE.jar:?]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl.getListByTypeid(ClazzServiceImpl.java:421) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$FastClassBySpringCGLIB$$1ce9def.invoke(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204) ~[spring-core-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:721) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:282) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96) ~[spring-tx-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:656) ~[spring-aop-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at cn.javaworker.yeming.manager.service.impl.ClazzServiceImpl$$EnhancerBySpringCGLIB$$59b735f.getListByTypeid(<generated>) ~[manager-core-4.1.1.jar:4.1.1]
+	at cn.javaworker.yeming.ukeli.controller.KnowledgeController.page(KnowledgeController.java:65) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:116) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+2017-10-31 09:26:41   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/login.html,pathInfo=
+2017-10-31 09:26:41   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:26:41   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/getvm.html,pathInfo=
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/login.json,pathInfo=
+2017-10-31 09:38:07   INFO  [http-nio-9998-exec-7][CommonController.java:137] - 后台管理员开始登陆:admin
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：h7sUGREuLjE=
+2017-10-31 09:38:07   INFO  [http-nio-9998-exec-7][CommonController.java:163] - 用户登录密码加密：d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-31 09:38:07   INFO  [http-nio-9998-exec-7][CommonController.java:170] - 用户登录成功
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: false
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value:  
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0.0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'BigInteger' value '0' to type 'BigInteger'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: false
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value:  
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 0
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: 
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Z@20ac5558
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'boolean[]' value '[Z@20ac5558' to type 'boolean[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a boolean[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [B@32e9e208
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'byte[]' value '[B@32e9e208' to type 'byte[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a byte[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [C@2f65c82
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'char[]' value '[C@2f65c82' to type 'char[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a char[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [D@1460a6c7
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'double[]' value '[D@1460a6c7' to type 'double[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a double[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [F@56a42786
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'float[]' value '[F@56a42786' to type 'float[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a float[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [I@2b2076f8
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'int[]' value '[I@2b2076f8' to type 'int[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a int[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [J@1b022d52
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'long[]' value '[J@1b022d52' to type 'long[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a long[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [S@ac5e66b
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'short[]' value '[S@ac5e66b' to type 'short[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a short[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigDecimal;@7d2a78a2
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@7d2a78a2' to type 'BigDecimal[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigInteger;@5ff78914
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@5ff78914' to type 'BigInteger[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Boolean;@54e552a1
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@54e552a1' to type 'Boolean[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Boolean[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Byte;@48e16220
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Byte[]' value '[Ljava.lang.Byte;@48e16220' to type 'Byte[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Byte[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Character;@6a461443
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Character[]' value '[Ljava.lang.Character;@6a461443' to type 'Character[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Character[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Double;@6d0789c4
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Double[]' value '[Ljava.lang.Double;@6d0789c4' to type 'Double[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Double[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Float;@62c5f621
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Float[]' value '[Ljava.lang.Float;@62c5f621' to type 'Float[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Float[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Integer;@3d15dfdb
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Integer[]' value '[Ljava.lang.Integer;@3d15dfdb' to type 'Integer[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Integer[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Long;@107ce87e
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Long[]' value '[Ljava.lang.Long;@107ce87e' to type 'Long[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Long[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Short;@61d923c
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Short[]' value '[Ljava.lang.Short;@61d923c' to type 'Short[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Short[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.String;@72e17ad
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'String[]' value '[Ljava.lang.String;@72e17ad' to type 'String[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a String[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Class;@39978c18
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Class[]' value '[Ljava.lang.Class;@39978c18' to type 'Class[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Class[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.util.Date;@53717564
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Date[]' value '[Ljava.util.Date;@53717564' to type 'Date[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Date[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.util.Calendar;@6544074d
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'Calendar[]' value '[Ljava.util.Calendar;@6544074d' to type 'Calendar[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a Calendar[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.io.File;@38342386
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'java.io.File[]' value '[Ljava.io.File;@38342386' to type 'java.io.File[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a java.io.File[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Date;@68f46f61
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@68f46f61' to type 'java.sql.Date[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Date[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Time;@24a3d5c1
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@24a3d5c1' to type 'java.sql.Time[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Time[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Timestamp;@39a18c5e
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@39a18c5e' to type 'java.sql.Timestamp[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Timestamp[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:353] - Setting default value: [Ljava.net.URL;@29e14db3
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:140] - Converting 'java.net.URL[]' value '[Ljava.net.URL;@29e14db3' to type 'java.net.URL[]'
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][AbstractConverter.java:162] -     No conversion required, value is already a java.net.URL[]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_admin_login_logs(ipaddress,adminid,addtime,edittime) VALUES(?,?,now(),now())
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-7][MysqlDialectImpl.java:88] - 执行保存的参数=[0:0:0:0:0:0:0:1, 1]
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:38:07   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:38:15   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 09:38:15   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:38:15   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:38:15   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:38:16   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 09:38:16   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:38:16   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:38:16   INFO  [http-nio-9998-exec-1][UserSubjectRestController.java:100] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/usersubject/status.json,pathInfo=
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:38:26   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:38:26   INFO  [http-nio-9998-exec-2][UserSubjectRestController.java:100] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 09:41:47   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-31 09:42:06   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 4120 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-31 09:42:06   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 09:42:06   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 09:42:13   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 09:42:13   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 09:42:13   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 09:42:13   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-31 09:42:13   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-31 09:42:13   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-31 09:42:14   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-31 09:42:17   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-31 09:42:17   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-31 09:42:17   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 09:42:17   INFO  [main][StartupInfoLogger.java:57] - Started Application in 12.533 seconds (JVM running for 16.489)
+2017-10-31 09:42:36   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 09:42:39   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 09:42:39   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:42:41   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:42:41   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:42:41   INFO  [http-nio-9998-exec-2][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 09:42:45   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 09:42:45   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:42:45   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:42:45   INFO  [http-nio-9998-exec-10][UserSubjectRestController.java:103] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 09:43:09   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 09:43:09   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:43:09   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:43:09   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 09:43:11   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 09:43:11   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:43:11   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:43:11   INFO  [http-nio-9998-exec-8][UserSubjectRestController.java:103] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/usersubject/del.json,pathInfo=
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:43:20   INFO  [http-nio-9998-exec-5][UserSubjectRestController.java:65] - 需要删除的id=1
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 09:43:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 09:43:20   INFO  [http-nio-9998-exec-7][UserSubjectRestController.java:103] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 10:53:21   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-31 10:53:48   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 1604 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-31 10:53:48   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 10:53:48   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 10:53:52   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 10:53:52   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 10:53:52   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 10:53:52   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-31 10:53:52   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-31 10:53:52   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-31 10:53:52   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-31 10:53:56   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-31 10:53:56   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-31 10:53:56   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 10:53:56   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.465 seconds (JVM running for 12.794)
+2017-10-31 10:54:31   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 10:54:31   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 10:54:31   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:54:32   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:54:33   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:54:33   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 10:54:36   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 10:54:36   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:54:36   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:54:36   INFO  [http-nio-9998-exec-3][UserSubjectRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 10:56:00   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/manager/clazz/page.html,pathInfo=
+2017-10-31 10:56:00   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:00   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:00   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/manager/clazztype/list.json,pathInfo=
+2017-10-31 10:56:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:02   INFO  [http-nio-9998-exec-6][ClazztypeRestController.java:96] - 获取分类类型status=-1,关键字=,start=0,limit=10
+2017-10-31 10:56:12   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/manager/permission/page.html,pathInfo=
+2017-10-31 10:56:12   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:12   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:12   DEBUG [http-nio-9998-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:19   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/manager/admin/page.html,pathInfo=
+2017-10-31 10:56:19   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:19   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:19   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:21   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/manager/admin/list.json,pathInfo=
+2017-10-31 10:56:21   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:21   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:21   INFO  [http-nio-9998-exec-1][AdminRestController.java:106] - 获取管理员status=-1,关键字=,start=0,limit=10
+2017-10-31 10:56:28   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/manager/role/page.html,pathInfo=
+2017-10-31 10:56:28   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:28   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:28   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:31   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/manager/role/list.json,pathInfo=
+2017-10-31 10:56:31   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:31   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:31   INFO  [http-nio-9998-exec-2][RoleRestController.java:102] - 获取角色信息 status=-1,关键字=,start=0,limit=10
+2017-10-31 10:56:41   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/manager/permission/page.html,pathInfo=
+2017-10-31 10:56:41   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:41   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:41   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:54   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/manager/role/page.html,pathInfo=
+2017-10-31 10:56:54   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:54   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:54   DEBUG [http-nio-9998-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:56   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/manager/role/list.json,pathInfo=
+2017-10-31 10:56:56   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:56   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:56   INFO  [http-nio-9998-exec-6][RoleRestController.java:102] - 获取角色信息 status=-1,关键字=,start=0,limit=10
+2017-10-31 10:56:57   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/tree.html,pathInfo=
+2017-10-31 10:56:57   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:57   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:56:57   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:56:58   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/manager/permission/tree.json,pathInfo=
+2017-10-31 10:56:58   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:56:58   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/manager/role/permission.json,pathInfo=
+2017-10-31 10:57:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:06   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/manager/role/list.json,pathInfo=
+2017-10-31 10:57:06   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:06   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:06   INFO  [http-nio-9998-exec-6][RoleRestController.java:102] - 获取角色信息 status=-1,关键字=,start=0,limit=10
+2017-10-31 10:57:09   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/manager/role/page.html,pathInfo=
+2017-10-31 10:57:09   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:09   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:09   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:57:11   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/manager/role/list.json,pathInfo=
+2017-10-31 10:57:11   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:11   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:11   INFO  [http-nio-9998-exec-6][RoleRestController.java:102] - 获取角色信息 status=-1,关键字=,start=0,limit=10
+2017-10-31 10:57:21   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 10:57:21   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:21   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:21   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:57:22   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 10:57:22   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:22   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:22   INFO  [http-nio-9998-exec-5][UserSubjectRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 10:57:24   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 10:57:24   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:24   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:24   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:57:25   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 10:57:25   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:57:25   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:57:25   INFO  [http-nio-9998-exec-3][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 10:59:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 10:59:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:59:05   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:59:05   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 10:59:06   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 10:59:06   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 10:59:06   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 10:59:06   INFO  [http-nio-9998-exec-5][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 11:00:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/manager/role/page.html,pathInfo=
+2017-10-31 11:00:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 11:00:38   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 11:00:38   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 11:00:40   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/manager/role/list.json,pathInfo=
+2017-10-31 11:00:40   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 11:00:40   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 11:00:40   INFO  [http-nio-9998-exec-4][RoleRestController.java:102] - 获取角色信息 status=-1,关键字=,start=0,limit=10
+2017-10-31 14:31:24   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 14:31:24   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:31:24   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:31:24   DEBUG [http-nio-9998-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 14:31:31   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 14:31:31   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:31:31   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:31:31   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 14:31:45   ERROR [Druid-ConnectionPool-Create-1101483503][DruidDataSource.java:2181] - create connection error, url: jdbc:mysql://123.206.174.94:4406/ukeli_test?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=PRC&useSSL=false, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:217) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1466) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178) [druid-1.1.0.jar:1.1.0]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	... 18 more
+2017-10-31 14:31:48   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 14:31:48   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:31:48   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:31:48   INFO  [http-nio-9998-exec-2][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 14:32:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 14:32:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:32:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:32:18   INFO  [http-nio-9998-exec-3][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 14:32:24   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 14:32:24   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:32:24   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:32:24   INFO  [http-nio-9998-exec-1][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 14:32:26   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 14:32:26   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:32:26   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:32:26   INFO  [http-nio-9998-exec-7][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 14:34:28   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 14:34:28   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:34:28   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:34:28   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 14:34:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 14:34:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 14:34:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 14:34:30   INFO  [http-nio-9998-exec-7][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:00:18   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:00:18   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:00:18   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:00:18   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:00:19   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:00:19   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:00:19   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:00:19   INFO  [http-nio-9998-exec-6][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:00:24   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:00:24   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:00:24   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:00:24   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:00:24   ERROR [http-nio-9998-exec-5][AuthorizationFilter.java:110] - 检查时间发生错误:Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+2017-10-31 15:00:24   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:111] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.1.0.jar:1.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at cn.javaworker.yeming.core.web.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:107) [core-web-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:80) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:43) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Dot._eval(Dot.java:48) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Expression.eval(Expression.java:81) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:84) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Expression.eval(Expression.java:81) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.visit(Environment.java:327) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.visit(Environment.java:333) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.process(Environment.java:306) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.template.Template.process(Template.java:386) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:367) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:284) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:234) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+2017-10-31 15:00:24   ERROR [http-nio-9998-exec-5][DirectJDKLog.java:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalStateException: Cannot call sendRedirect() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:488) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at cn.javaworker.yeming.core.web.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:112) ~[core-web-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2017-10-31 15:02:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:02:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:02:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:02:17   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:02:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:02:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:02:18   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:02:18   INFO  [http-nio-9998-exec-3][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:02:22   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:02:22   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:02:22   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:02:22   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:02:22   ERROR [http-nio-9998-exec-1][AuthorizationFilter.java:110] - 检查时间发生错误:Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+2017-10-31 15:02:22   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:111] - 
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123) ~[druid-1.1.0.jar:1.1.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at cn.javaworker.yeming.core.web.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:107) [core-web-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> user  [in template "userknowledge/show.ftl" at line 24, column 94]
+
+----
+Tip: If the failing expression is known to be legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${user.username!}  [in template "userknowledge/show.ftl" at line 24, column 92]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.UnexpectedTypeException.newDesciptionBuilder(UnexpectedTypeException.java:80) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.UnexpectedTypeException.<init>(UnexpectedTypeException.java:43) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.NonHashException.<init>(NonHashException.java:49) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Dot._eval(Dot.java:48) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Expression.eval(Expression.java:81) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DefaultToExpression._eval(DefaultToExpression.java:84) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Expression.eval(Expression.java:81) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:96) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:59) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.visit(Environment.java:327) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.visit(Environment.java:333) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.core.Environment.process(Environment.java:306) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at freemarker.template.Template.process(Template.java:386) ~[freemarker-2.3.25-incubating.jar:2.3.25]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:367) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:284) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:234) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:167) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:303) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1282) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	... 47 more
+2017-10-31 15:02:22   ERROR [http-nio-9998-exec-1][DirectJDKLog.java:181] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+java.lang.IllegalStateException: Cannot call sendRedirect() after the response has been committed
+	at org.apache.catalina.connector.ResponseFacade.sendRedirect(ResponseFacade.java:488) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at cn.javaworker.yeming.core.web.filter.AuthorizationFilter.doFilter(AuthorizationFilter.java:112) ~[core-web-4.1.1.jar:4.1.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:474) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:783) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1434) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2017-10-31 15:03:11   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-31 15:12:15   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 2176 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-31 15:12:15   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 15:12:15   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 15:12:19   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 15:12:19   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 15:12:19   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 15:12:19   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-31 15:12:19   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-31 15:12:19   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-31 15:12:20   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-31 15:12:24   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-31 15:12:24   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-31 15:12:24   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 15:12:24   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.328 seconds (JVM running for 11.591)
+2017-10-31 15:12:34   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 15:12:34   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:12:34   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:12:35   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:12:35   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:12:35   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 15:12:39   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:12:39   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:12:39   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:12:39   INFO  [http-nio-9998-exec-3][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:12:41   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:12:41   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:12:41   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:12:41   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:13:04   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:13:04   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:13:04   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:13:04   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:19:19   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:19:19   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:19:19   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:19:19   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:19:21   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:19:21   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:19:21   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:19:21   INFO  [http-nio-9998-exec-2][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:19:24   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:19:24   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:19:24   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:19:25   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:23:46   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:23:46   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:23:46   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:23:46   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:23:48   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:23:48   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:23:48   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:23:48   INFO  [http-nio-9998-exec-10][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:23:50   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:23:50   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:23:50   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:23:50   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:25:28   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:25:28   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:25:28   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:25:28   DEBUG [http-nio-9998-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:25:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:25:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:25:30   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:25:30   INFO  [http-nio-9998-exec-7][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:25:31   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:25:31   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:25:31   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:25:32   DEBUG [http-nio-9998-exec-6][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:27:09   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:27:09   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:27:09   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:27:09   DEBUG [http-nio-9998-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:27:11   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:27:11   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:27:11   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:27:11   INFO  [http-nio-9998-exec-3][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:27:12   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:27:12   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:27:12   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:27:13   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:38:38   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-31 15:38:53   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 2956 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-31 15:38:53   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-31 15:38:53   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-31 15:38:57   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-31 15:38:57   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-31 15:38:57   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-31 15:38:57   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-31 15:38:57   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-31 15:38:57   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-31 15:38:57   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-31 15:39:01   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-31 15:39:02   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-31 15:39:02   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-31 15:39:02   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.366 seconds (JVM running for 11.926)
+2017-10-31 15:41:28   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-31 15:41:28   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/page.html,pathInfo=
+2017-10-31 15:41:28   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:30   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:30   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:41:30   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-31 15:41:34   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/userknowledge/list.json,pathInfo=
+2017-10-31 15:41:34   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:34   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:34   INFO  [http-nio-9998-exec-8][UserKnowledgeRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:41:36   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/userknowledge/show.html,pathInfo=
+2017-10-31 15:41:36   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:36   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:36   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:41:44   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 15:41:44   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:44   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:44   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:41:46   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 15:41:46   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:46   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:46   INFO  [http-nio-9998-exec-7][UserSubjectRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:41:49   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/usersubject/show.html,pathInfo=
+2017-10-31 15:41:49   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:41:49   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:41:49   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:42:26   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/usersubject/page.html,pathInfo=
+2017-10-31 15:42:26   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:42:26   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:42:26   DEBUG [http-nio-9998-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:42:31   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/usersubject/list.json,pathInfo=
+2017-10-31 15:42:31   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:42:31   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:42:31   INFO  [http-nio-9998-exec-4][UserSubjectRestController.java:102] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-31 15:42:32   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/usersubject/show.html,pathInfo=
+2017-10-31 15:42:32   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:42:32   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:42:35   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:42:44   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/usersubject/show.html,pathInfo=
+2017-10-31 15:42:44   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:42:44   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:42:44   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 15:42:53   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/usersubject/show.html,pathInfo=
+2017-10-31 15:42:53   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-31 15:42:53   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-31 15:42:53   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-31 16:43:37   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

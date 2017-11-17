@@ -1,0 +1,134 @@
+2017-10-20 10:11:38   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 7300 (F:\Project\shop-git\ukeli-education\ukeli-web\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-web)
+2017-10-20 10:11:38   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-20 10:11:38   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-20 10:11:41   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-20 10:11:41   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-20 10:11:42   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-20 10:11:42   INFO  [localhost-startStop-1][WebFilerConfig.java:52] - 初始化filter参数:{ignore=/index.html,/login.json,/forbidden.html,/404.html}
+2017-10-20 10:11:45   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-20 10:11:45   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-20 10:11:45   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-20 10:11:45   INFO  [main][StartupInfoLogger.java:57] - Started Application in 8.941 seconds (JVM running for 12.213)
+2017-10-20 10:12:43   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-20 10:12:44   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-10-20 10:12:53   INFO  [http-nio-9999-exec-10][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:12:53   INFO  [http-nio-9999-exec-10][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-20 10:12:56   INFO  [http-nio-9999-exec-5][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:13:04   INFO  [http-nio-9999-exec-9][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:13:05   INFO  [http-nio-9999-exec-2][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:13:05   INFO  [http-nio-9999-exec-1][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:13:05   INFO  [http-nio-9999-exec-7][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:13:15   ERROR [Druid-ConnectionPool-Create-1229325700][DruidDataSource.java:2181] - create connection error, url: jdbc:mysql://192.168.0.125:4406/ukeli?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=PRC&useSSL=false, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:217) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1466) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178) [druid-1.1.0.jar:1.1.0]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	... 18 more
+2017-10-20 10:13:36   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-10][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-10][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-5][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-5][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-9][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-9][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-1][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-1][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-2][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [http-nio-9999-exec-7][CommonRestController.java:104] - 用户登录时间发生错误:Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-7][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   DEBUG [http-nio-9999-exec-2][CommonRestController.java:105] - org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is com.alibaba.druid.pool.DataSourceDisableException
+2017-10-20 10:13:36   ERROR [Druid-ConnectionPool-Create-1229325700][DruidDataSource.java:2181] - create connection error, url: jdbc:mysql://192.168.0.125:4406/ukeli?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=PRC&useSSL=false, errorCode 0, state 08S01
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:989) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:341) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2203) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2236) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2035) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:400) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:148) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:217) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1466) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1529) ~[druid-1.1.0.jar:1.1.0]
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2178) [druid-1.1.0.jar:1.1.0]
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:300) ~[mysql-connector-java-5.1.41.jar:5.1.41]
+	... 18 more
+2017-10-20 10:15:06   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 6468 (F:\Project\shop-git\ukeli-education\ukeli-web\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-web)
+2017-10-20 10:15:06   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-20 10:15:06   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-20 10:15:10   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-20 10:15:10   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-20 10:15:10   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-20 10:15:10   INFO  [localhost-startStop-1][WebFilerConfig.java:52] - 初始化filter参数:{ignore=/index.html,/login.json,/forbidden.html,/404.html}
+2017-10-20 10:15:14   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-20 10:15:14   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-20 10:15:14   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-20 10:15:14   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.537 seconds (JVM running for 12.912)
+2017-10-20 10:15:24   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-20 10:15:25   INFO  [http-nio-9999-exec-1][IndexConttoller.java:45] - 系统进入首页:
+2017-10-20 10:15:27   INFO  [http-nio-9999-exec-9][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:15:27   INFO  [http-nio-9999-exec-9][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-20 10:15:28   INFO  [http-nio-9999-exec-10][CommonRestController.java:63] - 用户登录:username=admin,password=123456
+2017-10-20 10:15:55   INFO  [http-nio-9999-exec-8][UserFilter.java:92] - cookies中的用户id:-1
+2017-10-20 10:15:55   DEBUG [http-nio-9999-exec-8][UserFilter.java:105] - path=http://localhost:9999,loginUrl=/forbidden.html
+2017-10-20 10:16:16   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

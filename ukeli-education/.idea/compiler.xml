@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ukeli-core" />
+        <module name="ukeli-manager" />
+        <module name="ukeli-pojo" />
+        <module name="ukeli-sorces" />
+        <module name="ukeli-utils" />
+        <module name="ukeli-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ukeli" target="1.8" />
+      <module name="ukeli-core" target="1.8" />
+      <module name="ukeli-manager" target="1.8" />
+      <module name="ukeli-pojo" target="1.8" />
+      <module name="ukeli-sorces" target="1.8" />
+      <module name="ukeli-utils" target="1.8" />
+      <module name="ukeli-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+2017-08-18 14:34:30   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5312 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-08-18 14:34:30   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-08-18 14:34:30   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-08-18 14:34:33   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-08-18 14:34:33   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-08-18 14:34:33   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-08-18 14:34:33   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-08-18 14:34:33   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-08-18 14:34:33   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-08-18 14:34:33   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=C:/Users/tengxiao/AppData/Local/Temp/tomcat-docbase.3602469292575177663.9999/
+2017-08-18 14:34:36   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-08-18 14:34:36   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-08-18 14:34:36   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-08-18 14:34:36   INFO  [main][StartupInfoLogger.java:57] - Started Application in 7.112 seconds (JVM running for 9.825)
+2017-08-18 14:34:52   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-18 14:34:52   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:74] - req_uri=/index.html,pathInfo=
+2017-08-18 14:34:52   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:84] - initParam=adminid
+2017-08-18 14:34:54   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:94] - check user login :1

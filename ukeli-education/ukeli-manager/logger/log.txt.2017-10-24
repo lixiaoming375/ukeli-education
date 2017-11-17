@@ -1,0 +1,511 @@
+2017-10-24 09:40:25   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 4968 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-24 09:40:26   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-24 09:40:26   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-24 09:40:29   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-24 09:40:29   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-24 09:40:29   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-24 09:40:29   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-24 09:40:29   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-24 09:40:29   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-24 09:40:29   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-24 09:40:34   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-24 09:40:34   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-24 09:40:34   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-24 09:40:34   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.038 seconds (JVM running for 10.907)
+2017-10-24 09:41:02   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-24 09:41:03   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：null
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :-1
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:103] - path=http://localhost:9998,loginUrl=login.html
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/login.html,pathInfo=
+2017-10-24 09:41:07   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：null
+2017-10-24 09:41:08   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/getvm.html,pathInfo=
+2017-10-24 09:41:20   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/login.json,pathInfo=
+2017-10-24 09:41:20   INFO  [http-nio-9998-exec-5][CommonController.java:137] - 后台管理员开始登陆:admin
+2017-10-24 09:41:20   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：F78fbMyGG5U=
+2017-10-24 09:41:21   INFO  [http-nio-9998-exec-5][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-24 09:41:22   INFO  [http-nio-9998-exec-5][CommonController.java:163] - 用户登录密码加密：d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-24 09:41:22   INFO  [http-nio-9998-exec-5][CommonController.java:170] - 用户登录成功
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: false
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value:  
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0.0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'BigInteger' value '0' to type 'BigInteger'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: false
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value:  
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: 
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Z@7a88c7c5
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'boolean[]' value '[Z@7a88c7c5' to type 'boolean[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a boolean[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [B@25aa6dba
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'byte[]' value '[B@25aa6dba' to type 'byte[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a byte[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [C@140556e2
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'char[]' value '[C@140556e2' to type 'char[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a char[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [D@1c24fa84
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'double[]' value '[D@1c24fa84' to type 'double[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a double[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [F@202ea02a
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'float[]' value '[F@202ea02a' to type 'float[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a float[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [I@569fce28
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'int[]' value '[I@569fce28' to type 'int[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a int[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [J@6813205f
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'long[]' value '[J@6813205f' to type 'long[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a long[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [S@53d81703
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'short[]' value '[S@53d81703' to type 'short[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a short[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigDecimal;@622d2a2
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@622d2a2' to type 'BigDecimal[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigInteger;@5f847e9b
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@5f847e9b' to type 'BigInteger[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Boolean;@5c506699
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@5c506699' to type 'Boolean[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Boolean[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Byte;@2b2571b9
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Byte[]' value '[Ljava.lang.Byte;@2b2571b9' to type 'Byte[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Byte[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Character;@4ea351
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Character[]' value '[Ljava.lang.Character;@4ea351' to type 'Character[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Character[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Double;@1abe56de
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Double[]' value '[Ljava.lang.Double;@1abe56de' to type 'Double[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Double[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Float;@1b8af40c
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Float[]' value '[Ljava.lang.Float;@1b8af40c' to type 'Float[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Float[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Integer;@5bf0d95f
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Integer[]' value '[Ljava.lang.Integer;@5bf0d95f' to type 'Integer[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Integer[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Long;@253a61af
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Long[]' value '[Ljava.lang.Long;@253a61af' to type 'Long[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Long[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Short;@48f72fd8
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Short[]' value '[Ljava.lang.Short;@48f72fd8' to type 'Short[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Short[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.String;@3175eea8
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'String[]' value '[Ljava.lang.String;@3175eea8' to type 'String[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a String[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Class;@25414e94
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Class[]' value '[Ljava.lang.Class;@25414e94' to type 'Class[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Class[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.util.Date;@54b92c0b
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Date[]' value '[Ljava.util.Date;@54b92c0b' to type 'Date[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Date[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.util.Calendar;@2bb5e54f
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'Calendar[]' value '[Ljava.util.Calendar;@2bb5e54f' to type 'Calendar[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a Calendar[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.io.File;@19eb96a9
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'java.io.File[]' value '[Ljava.io.File;@19eb96a9' to type 'java.io.File[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a java.io.File[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Date;@72db70cf
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@72db70cf' to type 'java.sql.Date[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Date[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Time;@4ac82969
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@4ac82969' to type 'java.sql.Time[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Time[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Timestamp;@166f8005
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@166f8005' to type 'java.sql.Timestamp[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Timestamp[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:353] - Setting default value: [Ljava.net.URL;@fe16c21
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:140] - Converting 'java.net.URL[]' value '[Ljava.net.URL;@fe16c21' to type 'java.net.URL[]'
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][AbstractConverter.java:162] -     No conversion required, value is already a java.net.URL[]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_admin_login_logs(ipaddress,adminid,addtime,edittime) VALUES(?,?,now(),now())
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-5][MysqlDialectImpl.java:88] - 执行保存的参数=[0:0:0:0:0:0:0:1, 1]
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:22   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:41:32   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/exam/page.html,pathInfo=
+2017-10-24 09:41:32   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:32   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:32   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:41:33   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/exam/list.json,pathInfo=
+2017-10-24 09:41:33   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:33   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:33   INFO  [http-nio-9998-exec-9][ExamRestController.java:112] - 获取status=-1,关键字=,start=0,limit=10
+2017-10-24 09:41:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/page.html,pathInfo=
+2017-10-24 09:41:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:37   DEBUG [http-nio-9998-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:41:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-24 09:41:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:39   INFO  [http-nio-9998-exec-4][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-24 09:41:41   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-24 09:41:41   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:41   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:41   INFO  [http-nio-9998-exec-9][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=1
+2017-10-24 09:41:41   INFO  [http-nio-9998-exec-9][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial asc;
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/cup/bindDialog.html,pathInfo=
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:51   INFO  [http-nio-9998-exec-10][CupController.java:129] - 需要绑定题目的杯赛编号:1
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:41:51   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:41:51   INFO  [http-nio-9998-exec-1][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-24 09:41:51   INFO  [http-nio-9998-exec-1][SubjectServiceImpl.java:452] - sql=select s.* from t_subject s , t_subject_vtype sv   where s.id=sv.subjectid  and s.slock =?  and sv.vtype =10 and s.id not in (select subjectid from t_cup_subject where cupid =?) order by s.iorder desc limit ?,?
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/cup/bindDialog.html,pathInfo=
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:02   INFO  [http-nio-9998-exec-8][CupController.java:129] - 需要绑定题目的杯赛编号:1
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:02   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:02   INFO  [http-nio-9998-exec-6][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-24 09:42:02   INFO  [http-nio-9998-exec-6][SubjectServiceImpl.java:452] - sql=select s.* from t_subject s , t_subject_vtype sv   where s.id=sv.subjectid  and s.slock =?  and sv.vtype =10 and s.id not in (select subjectid from t_cup_subject where cupid =?) order by s.iorder desc limit ?,?
+2017-10-24 09:42:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/cup/bindAddScore.html,pathInfo=
+2017-10-24 09:42:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:04   INFO  [http-nio-9998-exec-3][CupController.java:142] - 需要绑定编号:cupId=1  subjectId=6
+2017-10-24 09:42:04   DEBUG [http-nio-9998-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/bindSubject.json,pathInfo=
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:10   INFO  [http-nio-9998-exec-4][CupRestController.java:371] - 需要绑定的subjectId=6
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-4][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_cup_subject(subjectid,cupid,score,serial,addtime,edittime) VALUES(?,?,?,?,now(),now())
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-4][MysqlDialectImpl.java:88] - 执行保存的参数=[6, 1, 12, 2]
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:10   INFO  [http-nio-9998-exec-10][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=1
+2017-10-24 09:42:10   INFO  [http-nio-9998-exec-10][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial asc;
+2017-10-24 09:42:10   INFO  [http-nio-9998-exec-9][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 09:42:10   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 09:42:10   INFO  [http-nio-9998-exec-7][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-24 10:42:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/page.html,pathInfo=
+2017-10-24 10:42:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 10:42:37   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 10:42:37   DEBUG [http-nio-9998-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 10:42:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-24 10:42:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 10:42:39   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 10:42:39   INFO  [http-nio-9998-exec-4][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-24 15:42:38   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-24 16:18:33   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 8720 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-24 16:18:33   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-24 16:18:33   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-24 16:18:37   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-24 16:18:37   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-24 16:18:37   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-24 16:18:37   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-24 16:18:37   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-24 16:18:37   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-24 16:18:37   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-24 16:18:41   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-24 16:18:41   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-24 16:18:41   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-24 16:18:41   INFO  [main][StartupInfoLogger.java:57] - Started Application in 8.722 seconds (JVM running for 10.572)
+2017-10-24 16:18:59   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-24 16:18:59   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:19:00   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-24 16:19:18   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/subject/page.html,pathInfo=
+2017-10-24 16:19:18   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:19:18   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:19:18   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:19:20   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/subject/list.json,pathInfo=
+2017-10-24 16:19:21   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:19:21   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:19:21   INFO  [http-nio-9998-exec-2][SubjectRestController.java:139] - 获取题目stype=0,name=,startTime=null,endTime=null,status=-1,name=,vtype=0,start=0,limit=10
+2017-10-24 16:19:23   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/subject/edit.html,pathInfo=
+2017-10-24 16:19:23   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:19:23   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:19:23   INFO  [http-nio-9998-exec-10][SubjectController.java:99] - 需要修改密码的权限编号:0
+2017-10-24 16:19:23   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/subject/save.json,pathInfo=
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：qH5YTAmKoUo=
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: false
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value:  
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0.0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'BigInteger' value '0' to type 'BigInteger'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: false
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value:  
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 0
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: 
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Z@2be22710
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'boolean[]' value '[Z@2be22710' to type 'boolean[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a boolean[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [B@20c64a44
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'byte[]' value '[B@20c64a44' to type 'byte[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a byte[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [C@4f526fdd
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'char[]' value '[C@4f526fdd' to type 'char[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a char[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [D@5242ff6a
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'double[]' value '[D@5242ff6a' to type 'double[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a double[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [F@68228895
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'float[]' value '[F@68228895' to type 'float[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a float[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [I@7a246bbf
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'int[]' value '[I@7a246bbf' to type 'int[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a int[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [J@26d4cfa1
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'long[]' value '[J@26d4cfa1' to type 'long[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a long[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [S@6328cdbe
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'short[]' value '[S@6328cdbe' to type 'short[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a short[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigDecimal;@1fb2976e
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@1fb2976e' to type 'BigDecimal[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigInteger;@463b1800
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@463b1800' to type 'BigInteger[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Boolean;@68599ab6
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@68599ab6' to type 'Boolean[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Boolean[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Byte;@238eda72
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Byte[]' value '[Ljava.lang.Byte;@238eda72' to type 'Byte[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Byte[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Character;@3f07aaf6
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Character[]' value '[Ljava.lang.Character;@3f07aaf6' to type 'Character[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Character[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Double;@e76aa00
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Double[]' value '[Ljava.lang.Double;@e76aa00' to type 'Double[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Double[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Float;@6f90ccf2
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Float[]' value '[Ljava.lang.Float;@6f90ccf2' to type 'Float[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Float[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Integer;@7a6f97cd
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Integer[]' value '[Ljava.lang.Integer;@7a6f97cd' to type 'Integer[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Integer[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Long;@6a9717c2
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Long[]' value '[Ljava.lang.Long;@6a9717c2' to type 'Long[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Long[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Short;@3d799045
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Short[]' value '[Ljava.lang.Short;@3d799045' to type 'Short[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Short[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.String;@21a50a9d
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String[]' value '[Ljava.lang.String;@21a50a9d' to type 'String[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a String[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Class;@6f0dc192
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Class[]' value '[Ljava.lang.Class;@6f0dc192' to type 'Class[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Class[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.util.Date;@1e878f8e
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Date[]' value '[Ljava.util.Date;@1e878f8e' to type 'Date[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Date[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.util.Calendar;@157231a1
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'Calendar[]' value '[Ljava.util.Calendar;@157231a1' to type 'Calendar[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a Calendar[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.io.File;@36ab6533
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'java.io.File[]' value '[Ljava.io.File;@36ab6533' to type 'java.io.File[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a java.io.File[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Date;@7f9df314
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@7f9df314' to type 'java.sql.Date[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Date[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Time;@151973f8
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@151973f8' to type 'java.sql.Time[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Time[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Timestamp;@4f77a73a
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@4f77a73a' to type 'java.sql.Timestamp[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Timestamp[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:353] - Setting default value: [Ljava.net.URL;@5908279e
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'java.net.URL[]' value '[Ljava.net.URL;@5908279e' to type 'java.net.URL[]'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:162] -     No conversion required, value is already a java.net.URL[]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][BeanUtilsBean.java:810] - BeanUtils.populate(cn.javaworker.yeming.ukeli.pojo.SubjectDo@7be77609[stype=0,name=<null>,content=<null>,answer=<null>,analysis=<null>,imgurl=<null>,viewtimes=<null>,studytimes=<null>,detail=<null>,videopath=<null>,ext_stype=<null>,ext_isbind=<null>,ext_serial=0,ext_score=0,ext_vtype=<null>,id=<null>,iorder=<null>,status=<null>,adderid=<null>,adder=<null>,editer=<null>,editerid=<null>,remark1=<null>,remark2=<null>,addtime=<null>,edittime=<null>,slock=<null>], {stype=[Ljava.lang.String;@415b12db, vtype=[Ljava.lang.String;@19e7ed15, name=[Ljava.lang.String;@68db955d, answer=[Ljava.lang.String;@62ca0db2, videopath=[Ljava.lang.String;@7b9e06fa, imgurl=[Ljava.lang.String;@5d37d3d9, file=[Ljava.lang.String;@69f2c45f, content=[Ljava.lang.String;@5b67f34e, analysis=[Ljava.lang.String;@50c5870e, detail=[Ljava.lang.String;@330f3fd4, id=[Ljava.lang.String;@4c20d5d6})
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '12' to class 'int'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '12' to type 'Integer'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][NumberConverter.java:269] -     No NumberFormat, using default conversion
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Integer value '12'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '寄回样本管理试题名称试题名称' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '寄回样本管理试题名称试题名称' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '填空答案' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '填空答案' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '/lession1/zsd1/jumut.mp4' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '/lession1/zsd1/jumut.mp4' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '<p>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span></p>' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '<p>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span></p>' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '<p>寄回样本管理试题<span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span></p>' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '<p>寄回样本管理试题<span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span></p>' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '' to class 'java.lang.String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][ConvertUtilsBean.java:481] - Convert string '' to class 'java.lang.Long'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:140] - Converting 'String' value '' to type 'Long'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:319] -     Using default Long value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_subject(adder,content,imgurl,videopath,stype,analysis,answer,adderid,name,detail,addtime,edittime) VALUES(?,?,?,?,?,?,?,?,?,?,now(),now())
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-8][MysqlDialectImpl.java:88] - 执行保存的参数=[admin, <p>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span>寄回样本管理试题名称<span style="text-align: right;">试题内容</span></p>, , /lession1/zsd1/jumut.mp4, 12, <p>寄回样本管理试题<span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span><span style="text-align: right;">试题解析</span></p>, 填空答案, 1, 寄回样本管理试题名称试题名称, ]
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/subject/list.json,pathInfo=
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:17   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:17   INFO  [http-nio-9998-exec-7][SubjectRestController.java:139] - 获取题目stype=0,name=,startTime=null,endTime=null,status=-1,name=,vtype=0,start=0,limit=10
+2017-10-24 16:20:20   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/subject/status.json,pathInfo=
+2017-10-24 16:20:20   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:20   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:21   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/subject/list.json,pathInfo=
+2017-10-24 16:20:21   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:21   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:21   INFO  [http-nio-9998-exec-6][SubjectRestController.java:139] - 获取题目stype=0,name=,startTime=null,endTime=null,status=-1,name=,vtype=0,start=0,limit=10
+2017-10-24 16:20:30   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/cup/page.html,pathInfo=
+2017-10-24 16:20:30   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:30   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:30   DEBUG [http-nio-9998-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:20:31   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-24 16:20:31   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:31   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:31   INFO  [http-nio-9998-exec-5][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-24 16:20:33   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-24 16:20:33   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:33   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:33   INFO  [http-nio-9998-exec-3][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=2
+2017-10-24 16:20:33   INFO  [http-nio-9998-exec-3][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial asc;
+2017-10-24 16:20:35   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-24 16:20:35   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:35   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:35   INFO  [http-nio-9998-exec-4][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=1
+2017-10-24 16:20:35   INFO  [http-nio-9998-exec-4][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial asc;
+2017-10-24 16:20:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/cup/edit.html,pathInfo=
+2017-10-24 16:20:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:41   INFO  [http-nio-9998-exec-8][CupController.java:85] - 需要修改密码的权限编号:1
+2017-10-24 16:20:41   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/cup/bindDialog.html,pathInfo=
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:47   INFO  [http-nio-9998-exec-6][CupController.java:129] - 需要绑定题目的杯赛编号:1
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-6][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:47   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:47   INFO  [http-nio-9998-exec-7][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-24 16:20:47   INFO  [http-nio-9998-exec-7][SubjectServiceImpl.java:452] - sql=select s.* from t_subject s , t_subject_vtype sv   where s.id=sv.subjectid  and s.slock =?  and sv.vtype =10 and s.id not in (select subjectid from t_cup_subject where cupid =?) order by s.iorder desc limit ?,?
+2017-10-24 16:20:50   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:81] - req_uri=/cup/bindAddScore.html,pathInfo=
+2017-10-24 16:20:50   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:50   DEBUG [http-nio-9998-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:50   INFO  [http-nio-9998-exec-10][CupController.java:142] - 需要绑定编号:cupId=1  subjectId=7
+2017-10-24 16:20:50   DEBUG [http-nio-9998-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/cup/bindSubject.json,pathInfo=
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:53   INFO  [http-nio-9998-exec-1][CupRestController.java:371] - 需要绑定的subjectId=7
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-1][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_cup_subject(subjectid,cupid,score,serial,addtime,edittime) VALUES(?,?,?,?,now(),now())
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-1][MysqlDialectImpl.java:88] - 执行保存的参数=[7, 1, 13, 3]
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:53   INFO  [http-nio-9998-exec-5][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:53   INFO  [http-nio-9998-exec-3][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=1
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-24 16:20:53   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-24 16:20:53   INFO  [http-nio-9998-exec-4][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-24 16:20:53   INFO  [http-nio-9998-exec-3][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial asc;
+2017-10-24 17:54:30   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

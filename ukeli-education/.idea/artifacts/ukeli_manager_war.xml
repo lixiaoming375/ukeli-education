@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ukeli-manager:war">
+    <output-path>$PROJECT_DIR$/ukeli-manager/target</output-path>
+    <root id="archive" name="ukeli-manager-0.1.war">
+      <element id="artifact" artifact-name="ukeli-manager:war exploded" />
+    </root>
+  </artifact>
+</component>

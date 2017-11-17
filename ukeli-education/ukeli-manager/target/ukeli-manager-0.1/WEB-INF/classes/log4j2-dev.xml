@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="off">
+    <Properties>
+        <Property name="LOG_HOME">./logger/</Property>
+        <Property name="LOG_NAME">log.txt</Property>
+    </Properties>
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread][%file:%line] - %msg%n"/>
+        </Console>
+        <RollingFile name="log" fileName="${LOG_HOME}/${LOG_NAME}" filePattern="${LOG_HOME}/${LOG_NAME}.%d{yyyy-MM-dd}" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss}   %-5level [%thread][%file:%line] - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1" />
+            </Policies>
+            <DefaultRolloverStrategy max="180" />
+        </RollingFile>
+    </appenders>
+    <loggers>
+        <root level="debug">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="log"/>
+        </root>
+        <logger name="org.spring" level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </logger>
+        <logger name="org.springframework" level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </logger>
+        <logger name="freemarker" level="info" additivity="false">
+            <AppenderRef ref="Console" />
+        </logger>
+    </loggers>
+</configuration>

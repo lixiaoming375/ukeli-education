@@ -1,0 +1,1282 @@
+2017-10-21 11:18:34   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5560 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 11:18:34   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 11:18:34   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 11:18:42   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 11:18:42   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 11:18:42   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 11:18:42   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 11:18:42   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 11:18:42   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 11:18:43   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 11:18:48   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 11:18:48   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 11:18:48   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 11:18:48   INFO  [main][StartupInfoLogger.java:57] - Started Application in 17.176 seconds (JVM running for 21.448)
+2017-10-21 11:18:54   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/user/page.html,pathInfo=
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :-1
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:103] - path=http://localhost:9999,loginUrl=login.html
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/login.html,pathInfo=
+2017-10-21 11:18:54   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：null
+2017-10-21 11:18:55   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/getvm.html,pathInfo=
+2017-10-21 11:19:44   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/login.json,pathInfo=
+2017-10-21 11:19:44   INFO  [http-nio-9999-exec-3][CommonController.java:137] - 后台管理员开始登陆:admin
+2017-10-21 11:19:44   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：8d77NJ3x5iM=
+2017-10-21 11:19:45   INFO  [http-nio-9999-exec-3][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 11:19:46   INFO  [http-nio-9999-exec-3][CommonController.java:163] - 用户登录密码加密：d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-21 11:19:46   INFO  [http-nio-9999-exec-3][CommonController.java:170] - 用户登录成功
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: false
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value:  
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0.0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'BigInteger' value '0' to type 'BigInteger'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: false
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value:  
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: 
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Z@2bba6399
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'boolean[]' value '[Z@2bba6399' to type 'boolean[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a boolean[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [B@36e09c14
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'byte[]' value '[B@36e09c14' to type 'byte[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a byte[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [C@44bd2ff7
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'char[]' value '[C@44bd2ff7' to type 'char[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a char[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [D@213a2b93
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'double[]' value '[D@213a2b93' to type 'double[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a double[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [F@59643286
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'float[]' value '[F@59643286' to type 'float[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a float[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [I@6b560582
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'int[]' value '[I@6b560582' to type 'int[]'
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a int[]
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [J@46395d88
+2017-10-21 11:19:46   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'long[]' value '[J@46395d88' to type 'long[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a long[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [S@362f906f
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'short[]' value '[S@362f906f' to type 'short[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a short[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigDecimal;@4ea7742e
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@4ea7742e' to type 'BigDecimal[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigInteger;@19dfc858
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@19dfc858' to type 'BigInteger[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Boolean;@264a97b9
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@264a97b9' to type 'Boolean[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Boolean[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Byte;@64007948
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Byte[]' value '[Ljava.lang.Byte;@64007948' to type 'Byte[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Byte[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Character;@95cbb1e
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Character[]' value '[Ljava.lang.Character;@95cbb1e' to type 'Character[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Character[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Double;@3abc1fd5
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Double[]' value '[Ljava.lang.Double;@3abc1fd5' to type 'Double[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Double[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Float;@65da7f66
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Float[]' value '[Ljava.lang.Float;@65da7f66' to type 'Float[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Float[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Integer;@6db96e0a
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Integer[]' value '[Ljava.lang.Integer;@6db96e0a' to type 'Integer[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Integer[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Long;@478830bb
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Long[]' value '[Ljava.lang.Long;@478830bb' to type 'Long[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Long[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Short;@5a91f000
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Short[]' value '[Ljava.lang.Short;@5a91f000' to type 'Short[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Short[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.String;@570b46d8
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'String[]' value '[Ljava.lang.String;@570b46d8' to type 'String[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a String[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Class;@5b3ca7c2
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Class[]' value '[Ljava.lang.Class;@5b3ca7c2' to type 'Class[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Class[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.util.Date;@e785d55
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Date[]' value '[Ljava.util.Date;@e785d55' to type 'Date[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Date[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.util.Calendar;@575150d2
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'Calendar[]' value '[Ljava.util.Calendar;@575150d2' to type 'Calendar[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a Calendar[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.io.File;@25b385c0
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'java.io.File[]' value '[Ljava.io.File;@25b385c0' to type 'java.io.File[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a java.io.File[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Date;@2d0b9f44
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@2d0b9f44' to type 'java.sql.Date[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Date[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Time;@12be9719
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@12be9719' to type 'java.sql.Time[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Time[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Timestamp;@1ff1d38b
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@1ff1d38b' to type 'java.sql.Timestamp[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Timestamp[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:353] - Setting default value: [Ljava.net.URL;@6252c66
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:140] - Converting 'java.net.URL[]' value '[Ljava.net.URL;@6252c66' to type 'java.net.URL[]'
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][AbstractConverter.java:162] -     No conversion required, value is already a java.net.URL[]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_admin_login_logs(ipaddress,adminid,addtime,edittime) VALUES(?,?,now(),now())
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-3][MysqlDialectImpl.java:88] - 执行保存的参数=[0:0:0:0:0:0:0:1, 1]
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:19:47   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:19:57   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:19:57   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:19:57   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:19:57   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:19:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:19:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:19:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:19:59   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:20:58   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 11:20:58   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:20:58   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:20:58   INFO  [http-nio-9999-exec-6][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 11:20:58   DEBUG [http-nio-9999-exec-6][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:21:18   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/cup/page.html,pathInfo=
+2017-10-21 11:21:18   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:18   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:18   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:21:20   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/cup/list.json,pathInfo=
+2017-10-21 11:21:20   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:20   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:20   INFO  [http-nio-9999-exec-10][CupRestController.java:114] - 获取status=-1,关键字=,start=0,limit=10,cuptypeid=0
+2017-10-21 11:21:22   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/cup/bindDialog.html,pathInfo=
+2017-10-21 11:21:22   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:22   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:22   INFO  [http-nio-9999-exec-1][CupController.java:129] - 需要绑定题目的杯赛编号:2
+2017-10-21 11:21:22   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:21:24   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-21 11:21:24   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:24   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:24   INFO  [http-nio-9999-exec-5][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=2
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/cup/bindDialog.html,pathInfo=
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:29   INFO  [http-nio-9999-exec-3][CupController.java:129] - 需要绑定题目的杯赛编号:1
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/subject/bindSubList.json,pathInfo=
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:29   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:29   INFO  [http-nio-9999-exec-9][SubjectRestController.java:343] - 获取题目属性status=-1,关键字=,start=0,limit=10,examId=0,cupId=1
+2017-10-21 11:21:29   INFO  [http-nio-9999-exec-9][SubjectServiceImpl.java:444] - sql=select s.* from t_subject s , t_subject_vtype sv   where s.id=sv.subjectid  and s.slock =?  and sv.vtype =10 and s.id not in (select subjectid from t_cup_subject where cupid =?) order by s.iorder desc limit ?,?
+2017-10-21 11:21:31   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/cup/bindAddScore.html,pathInfo=
+2017-10-21 11:21:31   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:21:31   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:21:31   INFO  [http-nio-9999-exec-4][CupController.java:142] - 需要绑定编号:cupId=1  subjectId=4
+2017-10-21 11:21:31   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:22:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/subject/listbycup.json,pathInfo=
+2017-10-21 11:22:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:22:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:22:01   INFO  [http-nio-9999-exec-8][SubjectRestController.java:244] - 获取商品属性status=-1,start=0,limit=200,cupId=2
+2017-10-21 11:22:01   INFO  [http-nio-9999-exec-8][SubjectServiceImpl.java:233] - sql=select s.*,cs.serial as ext_serial ,cs.score as ext_score from t_subject s,t_cup_subject cs   where 1=1 and cs.cupid=?  and  s. id=cs.subjectid order by cs.serial desc;
+2017-10-21 11:22:09   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:22:09   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:22:09   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:22:09   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:22:10   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:22:10   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:22:10   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:22:10   INFO  [http-nio-9999-exec-1][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:22:18   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 11:22:18   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:22:18   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:22:18   INFO  [http-nio-9999-exec-8][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 11:22:18   DEBUG [http-nio-9999-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:23:35   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:23:35   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:23:35   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:23:35   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:23:37   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:23:37   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:23:37   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:23:37   INFO  [http-nio-9999-exec-8][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:23:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:23:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:23:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:23:50   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:23:52   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:23:52   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:23:52   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:23:52   INFO  [http-nio-9999-exec-1][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:24:59   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:24:59   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:24:59   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:24:59   DEBUG [http-nio-9999-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:25:01   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:25:01   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:25:01   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:25:01   INFO  [http-nio-9999-exec-10][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:25:23   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:25:23   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:25:23   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:25:23   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:25:25   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:25:25   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:25:25   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:25:25   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:57:34   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 11:57:34   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:34   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:35   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:57:35   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:35   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:35   INFO  [http-nio-9999-exec-5][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:57:40   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 11:57:40   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:40   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 11:57:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:44   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:57:44   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:44   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:44   INFO  [http-nio-9999-exec-10][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:57:47   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:57:47   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:47   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:47   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:57:48   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:57:48   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:48   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:48   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:50   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:50   INFO  [http-nio-9999-exec-7][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:57:53   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:57:53   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:53   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:53   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:57:54   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:57:54   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:57:54   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:57:54   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:59:49   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 11:59:49   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:59:49   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:59:49   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 11:59:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 11:59:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:59:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:59:51   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 11:59:54   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 11:59:54   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 11:59:54   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 11:59:54   INFO  [http-nio-9999-exec-4][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 11:59:54   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:00:47   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:00:47   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:00:47   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:00:47   DEBUG [http-nio-9999-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:00:48   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:00:48   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:00:48   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:00:48   INFO  [http-nio-9999-exec-10][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:00:53   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 12:00:53   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:00:53   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:00:58   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:00:58   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:00:58   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:00:58   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:00:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:00:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:00:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:00:59   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:01:06   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 12:01:06   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:06   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:11   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:11   INFO  [http-nio-9999-exec-6][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:01:14   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:01:14   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:14   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:14   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:01:15   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:01:16   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:16   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:16   INFO  [http-nio-9999-exec-7][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:01:42   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:01:42   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:01:42   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:01:42   INFO  [http-nio-9999-exec-8][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 12:01:42   DEBUG [http-nio-9999-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:02:30   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:02:30   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:30   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:30   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:02:32   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:02:32   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:32   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:32   INFO  [http-nio-9999-exec-5][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:02:33   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:02:33   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:33   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:33   INFO  [http-nio-9999-exec-3][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 12:02:33   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:02:56   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:02:56   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:56   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:56   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:02:58   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:02:58   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:58   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:58   INFO  [http-nio-9999-exec-10][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:02:59   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:02:59   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:02:59   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:02:59   INFO  [http-nio-9999-exec-4][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 12:02:59   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:03:17   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:03:17   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:03:17   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:03:17   DEBUG [http-nio-9999-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:03:18   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:03:18   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:03:18   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:03:18   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:03:22   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:03:22   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:03:22   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:03:22   INFO  [http-nio-9999-exec-10][QuestionController.java:82] - 需要修改密码的权限编号:2
+2017-10-21 12:03:22   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:03:29   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:03:29   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:03:29   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:03:29   INFO  [http-nio-9999-exec-5][QuestionController.java:82] - 需要修改密码的权限编号:1
+2017-10-21 12:03:29   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:22:27   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 12:22:43   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5316 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 12:22:43   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 12:22:43   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 12:22:46   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 12:22:46   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 12:22:46   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 12:22:46   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 12:22:46   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 12:22:46   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 12:22:47   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 12:22:50   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 12:22:50   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 12:22:50   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 12:22:50   INFO  [main][StartupInfoLogger.java:57] - Started Application in 8.241 seconds (JVM running for 10.482)
+2017-10-21 12:22:57   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 12:22:57   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:22:57   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:22:58   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:22:58   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:22:58   INFO  [http-nio-9999-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 12:23:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:23:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:23:01   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:23:01   INFO  [http-nio-9999-exec-8][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:23:05   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:23:05   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:23:05   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:23:05   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:24:02   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:24:02   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:24:02   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:24:02   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:24:04   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:24:04   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:24:04   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:24:04   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:24:06   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:24:06   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:24:06   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:24:17   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:24:40   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:24:40   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:24:40   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:24:40   INFO  [http-nio-9999-exec-7][QuestionController.java:82] - 需要修改密码的权限编号:1
+2017-10-21 12:24:40   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:24:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:24:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:24:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:12   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:14   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:25:16   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:25:16   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:16   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:16   INFO  [http-nio-9999-exec-10][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:25:17   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:25:17   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:17   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:17   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:25:39   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:25:39   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:39   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:39   DEBUG [http-nio-9999-exec-6][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:25:41   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:25:41   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:41   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:41   INFO  [http-nio-9999-exec-1][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:25:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:25:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:25:43   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:25:43   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:36:50   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 12:37:03   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5016 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 12:37:03   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 12:37:03   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 12:37:07   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 12:37:07   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 12:37:07   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 12:37:07   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 12:37:07   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 12:37:07   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 12:37:08   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 12:37:12   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 12:37:12   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 12:37:12   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 12:37:12   INFO  [main][StartupInfoLogger.java:57] - Started Application in 10.225 seconds (JVM running for 13.281)
+2017-10-21 12:37:13   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 12:37:13   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:37:13   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:37:13   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:37:13   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:37:13   INFO  [http-nio-9999-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 12:37:17   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:37:17   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:37:17   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:37:17   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:37:32   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:37:32   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:37:32   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:37:33   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:39:49   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:39:49   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:39:49   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:39:49   DEBUG [http-nio-9999-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:39:51   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:39:51   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:39:51   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:39:51   INFO  [http-nio-9999-exec-4][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:39:54   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:39:54   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:39:54   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:39:54   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:40:24   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:40:24   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:24   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:24   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:40:26   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:40:26   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:26   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:26   INFO  [http-nio-9999-exec-7][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:40:30   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:40:30   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:30   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:31   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:40:36   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/edit.html,pathInfo=
+2017-10-21 12:40:36   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:36   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:36   INFO  [http-nio-9999-exec-4][QuestionController.java:82] - 需要修改密码的权限编号:3
+2017-10-21 12:40:37   DEBUG [http-nio-9999-exec-4][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/doback.json,pathInfo=
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-6][MysqlDialectImpl.java:135] - 执行更新的sql=update t_question set answer_time=? ,answer=? ,isanswer=?  ,edittime=now()  where id=?
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-6][MysqlDialectImpl.java:136] - 执行更新的参数=[2017-10-21 12:40:40.45,                            answer测试
+                           , 1, 3]
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:40   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:40   INFO  [http-nio-9999-exec-5][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:40:53   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:40:53   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:40:53   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:40:53   ERROR [http-nio-9999-exec-10][QuestionRestController.java:137] - 获取分页发生错误:Unparseable date: "2017-10-21 "
+2017-10-21 12:40:53   DEBUG [http-nio-9999-exec-10][QuestionRestController.java:138] - java.text.ParseException: Unparseable date: "2017-10-21 "
+2017-10-21 12:43:29   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/user/page.html,pathInfo=
+2017-10-21 12:43:29   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:43:29   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:43:29   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:43:30   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/user/list.json,pathInfo=
+2017-10-21 12:43:30   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:43:30   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:43:30   INFO  [http-nio-9999-exec-5][UserRestController.java:121] - 获取用户信息status=-1,username=,nickname=,isvip=,startTime=null,start=0,limit=10
+2017-10-21 12:44:14   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/user/page.html,pathInfo=
+2017-10-21 12:44:14   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:44:14   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:44:14   DEBUG [http-nio-9999-exec-9][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:44:15   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/user/list.json,pathInfo=
+2017-10-21 12:44:15   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:44:15   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:44:15   INFO  [http-nio-9999-exec-8][UserRestController.java:121] - 获取用户信息status=-1,username=,nickname=,isvip=,startTime=null,start=0,limit=10
+2017-10-21 12:44:25   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:44:25   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:44:25   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:44:25   DEBUG [http-nio-9999-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:44:26   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:44:26   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:44:26   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:44:26   INFO  [http-nio-9999-exec-6][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:44:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:44:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:44:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:44:35   INFO  [http-nio-9999-exec-8][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:44:35   ERROR [http-nio-9999-exec-8][QuestionRestController.java:137] - 获取分页发生错误:PreparedStatementCallback; SQL [select count(t.id) from t_question t left join t_user t1 on t.userid =t1.id   where 1=1  and t.addtime>startTime  and t.addtime<endTime  and t.slock < 2 ]; Parameter index out of range (1 > number of parameters, which is 0).; nested exception is java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-21 12:44:35   DEBUG [http-nio-9999-exec-8][QuestionRestController.java:138] - org.springframework.dao.TransientDataAccessResourceException: PreparedStatementCallback; SQL [select count(t.id) from t_question t left join t_user t1 on t.userid =t1.id   where 1=1  and t.addtime>startTime  and t.addtime<endTime  and t.slock < 2 ]; Parameter index out of range (1 > number of parameters, which is 0).; nested exception is java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+2017-10-21 12:47:56   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 12:49:51   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 6844 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 12:49:51   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 12:49:51   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 12:49:55   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 12:49:55   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 12:49:55   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 12:49:55   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 12:49:55   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 12:49:55   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 12:49:55   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 12:49:59   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 12:49:59   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 12:49:59   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 12:49:59   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.205 seconds (JVM running for 12.162)
+2017-10-21 12:49:59   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 12:49:59   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:49:59   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:49:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:49:59   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:00   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:00   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:00   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:50:00   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:50:00   INFO  [http-nio-9999-exec-2][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 12:50:04   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:04   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:04   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:04   INFO  [http-nio-9999-exec-9][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:50:12   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:12   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:12   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:12   INFO  [http-nio-9999-exec-8][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:50:14   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:14   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:14   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:14   INFO  [http-nio-9999-exec-3][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:50:16   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:50:16   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:16   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:16   DEBUG [http-nio-9999-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:50:20   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:50:20   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:20   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:21   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/status.json,pathInfo=
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:24   DEBUG [http-nio-9999-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:24   INFO  [http-nio-9999-exec-4][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:27   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:27   INFO  [http-nio-9999-exec-6][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:50:31   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/order.json,pathInfo=
+2017-10-21 12:50:31   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:31   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:32   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:50:32   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:50:32   DEBUG [http-nio-9999-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:50:32   INFO  [http-nio-9999-exec-9][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:51:33   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:51:33   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:51:33   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:51:33   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:51:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:51:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:51:35   DEBUG [http-nio-9999-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:51:35   INFO  [http-nio-9999-exec-8][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:51:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:51:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:51:43   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:08   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:53:08   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:08   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:08   DEBUG [http-nio-9999-exec-5][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:53:10   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:53:10   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:10   DEBUG [http-nio-9999-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:10   INFO  [http-nio-9999-exec-5][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:53:14   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 12:53:14   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:14   DEBUG [http-nio-9999-exec-10][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:14   DEBUG [http-nio-9999-exec-10][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:53:25   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:81] - req_uri=/question/del.json,pathInfo=
+2017-10-21 12:53:25   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:25   DEBUG [http-nio-9999-exec-6][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:25   INFO  [http-nio-9999-exec-6][QuestionRestController.java:76] - 需要删除的id=2
+2017-10-21 12:53:26   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:53:26   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:26   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:26   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 12:53:28   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 12:53:28   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:28   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:28   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 12:53:30   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 12:53:30   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 12:53:30   DEBUG [http-nio-9999-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 12:53:30   INFO  [http-nio-9999-exec-7][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 13:09:10   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 13:10:05   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 1248 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 13:10:05   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 13:10:05   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 13:10:09   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 13:10:10   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 13:10:10   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 13:10:10   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 13:10:10   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 13:10:10   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 13:10:10   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 13:10:14   ERROR [main][DirectJDKLog.java:181] - Failed to start end point associated with ProtocolHandler [http-nio-9999]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+2017-10-21 13:10:14   ERROR [main][DirectJDKLog.java:181] - Failed to start connector [Connector[HTTP/1.1-9999]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9999]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Pausing ProtocolHandler ["http-nio-9999"]
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Stopping service Tomcat
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Stopping ProtocolHandler ["http-nio-9999"]
+2017-10-21 13:10:14   INFO  [main][DirectJDKLog.java:179] - Destroying ProtocolHandler ["http-nio-9999"]
+2017-10-21 13:10:40   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 5412 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 13:10:40   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 13:10:40   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 13:10:44   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 13:10:44   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 13:10:44   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 13:10:44   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 13:10:44   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 13:10:44   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 13:10:44   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 13:10:48   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9999"]
+2017-10-21 13:10:48   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9999]
+2017-10-21 13:10:48   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 13:10:48   INFO  [main][StartupInfoLogger.java:57] - Started Application in 9.061 seconds (JVM running for 11.712)
+2017-10-21 13:10:48   INFO  [http-nio-9999-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 13:10:48   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:81] - req_uri=/question/page.html,pathInfo=
+2017-10-21 13:10:48   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:10:49   DEBUG [http-nio-9999-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:10:49   DEBUG [http-nio-9999-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 13:10:49   INFO  [http-nio-9999-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 13:10:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:81] - req_uri=/question/list.json,pathInfo=
+2017-10-21 13:10:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:10:51   DEBUG [http-nio-9999-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:10:51   INFO  [http-nio-9999-exec-2][QuestionRestController.java:119] - 获取status=-1,start=0,limit=10
+2017-10-21 13:10:53   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:81] - req_uri=/question/show.html,pathInfo=
+2017-10-21 13:10:53   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:10:53   DEBUG [http-nio-9999-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:10:53   DEBUG [http-nio-9999-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 13:11:01   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 13:14:13   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 6864 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 13:14:13   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 13:14:13   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 13:14:17   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 13:14:17   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 13:14:17   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 13:14:17   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 13:14:17   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 13:14:17   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 13:14:18   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 13:14:22   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-21 13:14:22   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-21 13:14:22   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 13:14:22   INFO  [main][StartupInfoLogger.java:57] - Started Application in 10.083 seconds (JVM running for 12.812)
+2017-10-21 13:14:31   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 13:14:31   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/user/page.html,pathInfo=
+2017-10-21 13:14:31   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:32   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:14:32   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 13:14:33   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 13:14:35   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/user/list.json,pathInfo=
+2017-10-21 13:14:35   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:35   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:14:35   INFO  [http-nio-9998-exec-5][UserRestController.java:121] - 获取用户信息status=-1,username=,nickname=,isvip=,startTime=null,start=0,limit=10
+2017-10-21 13:14:39   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/user/page.html,pathInfo=
+2017-10-21 13:14:39   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:39   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:14:39   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 13:14:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/user/list.json,pathInfo=
+2017-10-21 13:14:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:41   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:14:41   INFO  [http-nio-9998-exec-8][UserRestController.java:121] - 获取用户信息status=-1,username=,nickname=,isvip=,startTime=null,start=0,limit=10
+2017-10-21 13:14:43   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/user/editpw.html,pathInfo=
+2017-10-21 13:14:43   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:43   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 13:14:43   INFO  [http-nio-9998-exec-7][UserController.java:91] - 需要修改密码的管理员编号:1
+2017-10-21 13:14:43   DEBUG [http-nio-9998-exec-7][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 13:14:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/user/editpw.json,pathInfo=
+2017-10-21 13:14:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 13:14:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 14:18:21   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 6736 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 14:18:21   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 14:18:21   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 14:18:26   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 14:18:26   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 14:18:26   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 14:18:26   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 14:18:26   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 14:18:26   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 14:18:27   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-21 14:18:31   ERROR [main][DirectJDKLog.java:181] - Failed to start end point associated with ProtocolHandler [http-nio-9998]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+2017-10-21 14:18:31   ERROR [main][DirectJDKLog.java:181] - Failed to start connector [Connector[HTTP/1.1-9998]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9998]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Pausing ProtocolHandler ["http-nio-9998"]
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Stopping service Tomcat
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Stopping ProtocolHandler ["http-nio-9998"]
+2017-10-21 14:18:31   INFO  [main][DirectJDKLog.java:179] - Destroying ProtocolHandler ["http-nio-9998"]
+2017-10-21 15:26:28   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：null
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:101] - check user login :-1
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-6][AuthorizationFilter.java:103] - path=http://localhost:9998,loginUrl=login.html
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-5][AuthorizationFilter.java:81] - req_uri=/login.html,pathInfo=
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-5][CookiesUtil.java:80] - 获取解密的数据：null
+2017-10-21 15:26:33   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/getvm.html,pathInfo=
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/login.json,pathInfo=
+2017-10-21 15:26:45   INFO  [http-nio-9998-exec-2][CommonController.java:137] - 后台管理员开始登陆:admin
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：yiHluFJsNeM=
+2017-10-21 15:26:45   INFO  [http-nio-9998-exec-2][CommonController.java:163] - 用户登录密码加密：d9fba5ca345c4bcbf941ea37c4e836aa
+2017-10-21 15:26:45   INFO  [http-nio-9998-exec-2][CommonController.java:170] - 用户登录成功
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: false
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value:  
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0.0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'BigInteger' value '0' to type 'BigInteger'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: false
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Boolean' value 'false' to type 'Boolean'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Boolean
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Byte'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Byte value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value:  
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Character' value ' ' to type 'Character'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Character
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Double'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Double value '0.0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Float'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Float value '0.0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Integer'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Integer
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Long'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Long value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer' value '0' to type 'Short'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:171] -     Converted to Short value '0'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: 
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'String' value '' to type 'String'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Z@7ef2eda0
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'boolean[]' value '[Z@7ef2eda0' to type 'boolean[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a boolean[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [B@e2b34d1
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'byte[]' value '[B@e2b34d1' to type 'byte[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a byte[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [C@50d1e1fe
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'char[]' value '[C@50d1e1fe' to type 'char[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a char[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [D@7a9cc49f
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'double[]' value '[D@7a9cc49f' to type 'double[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a double[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [F@13eaa981
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'float[]' value '[F@13eaa981' to type 'float[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a float[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [I@44309a91
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'int[]' value '[I@44309a91' to type 'int[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a int[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [J@1b315df8
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'long[]' value '[J@1b315df8' to type 'long[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a long[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [S@795ca3d
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'short[]' value '[S@795ca3d' to type 'short[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a short[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigDecimal;@4175ddef
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@4175ddef' to type 'BigDecimal[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a BigDecimal[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.math.BigInteger;@109e700d
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@109e700d' to type 'BigInteger[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a BigInteger[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Boolean;@5686ac65
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@5686ac65' to type 'Boolean[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Boolean[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Byte;@3d385319
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Byte[]' value '[Ljava.lang.Byte;@3d385319' to type 'Byte[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Byte[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Character;@7bc869cb
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Character[]' value '[Ljava.lang.Character;@7bc869cb' to type 'Character[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Character[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Double;@70d011fb
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Double[]' value '[Ljava.lang.Double;@70d011fb' to type 'Double[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Double[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Float;@20912f2e
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Float[]' value '[Ljava.lang.Float;@20912f2e' to type 'Float[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Float[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Integer;@261b0f2b
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Integer[]' value '[Ljava.lang.Integer;@261b0f2b' to type 'Integer[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Integer[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Long;@6bcf568a
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Long[]' value '[Ljava.lang.Long;@6bcf568a' to type 'Long[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Long[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Short;@678b3c19
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Short[]' value '[Ljava.lang.Short;@678b3c19' to type 'Short[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Short[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.String;@4317bda8
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'String[]' value '[Ljava.lang.String;@4317bda8' to type 'String[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a String[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.lang.Class;@6273423f
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Class[]' value '[Ljava.lang.Class;@6273423f' to type 'Class[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Class[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.util.Date;@5ca6c19c
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Date[]' value '[Ljava.util.Date;@5ca6c19c' to type 'Date[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Date[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.util.Calendar;@1e306d22
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'Calendar[]' value '[Ljava.util.Calendar;@1e306d22' to type 'Calendar[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a Calendar[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.io.File;@cea3119
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'java.io.File[]' value '[Ljava.io.File;@cea3119' to type 'java.io.File[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a java.io.File[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Date;@52ea6431
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@52ea6431' to type 'java.sql.Date[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Date[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Time;@3cff5e6b
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@3cff5e6b' to type 'java.sql.Time[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Time[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.sql.Timestamp;@6a8d17
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@6a8d17' to type 'java.sql.Timestamp[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a java.sql.Timestamp[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:353] - Setting default value: [Ljava.net.URL;@214a57e5
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:140] - Converting 'java.net.URL[]' value '[Ljava.net.URL;@214a57e5' to type 'java.net.URL[]'
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][AbstractConverter.java:162] -     No conversion required, value is already a java.net.URL[]
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][MysqlDialectImpl.java:87] - 执行保存的sql=INSERT INTO t_admin_login_logs(ipaddress,adminid,addtime,edittime) VALUES(?,?,now(),now())
+2017-10-21 15:26:45   DEBUG [http-nio-9998-exec-2][MysqlDialectImpl.java:88] - 执行保存的参数=[0:0:0:0:0:0:0:1, 1]
+2017-10-21 15:26:46   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/index.html,pathInfo=
+2017-10-21 15:26:46   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:46   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:26:46   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 15:26:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/knowledge/page.html,pathInfo=
+2017-10-21 15:26:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:51   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:26:51   DEBUG [http-nio-9998-exec-3][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 15:26:54   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/knowledge/list.json,pathInfo=
+2017-10-21 15:26:54   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:54   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:26:54   INFO  [http-nio-9998-exec-8][KnowledgeRestController.java:92] - 获取知识点status=-1,关键字=,typeid=0,start=0,limit=10
+2017-10-21 15:26:56   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/subject/listbyknow.json,pathInfo=
+2017-10-21 15:26:56   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:56   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:26:56   INFO  [http-nio-9998-exec-1][SubjectRestController.java:293] - 获取商品属性status=-1,start=0,limit=200,knowledgeId=4
+2017-10-21 15:26:56   INFO  [http-nio-9998-exec-1][SubjectServiceImpl.java:233] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s. id=ks.subjectid order by ks.serial desc;
+2017-10-21 15:26:59   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:81] - req_uri=/subject/listbyknow.json,pathInfo=
+2017-10-21 15:26:59   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:26:59   DEBUG [http-nio-9998-exec-4][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:26:59   INFO  [http-nio-9998-exec-4][SubjectRestController.java:293] - 获取商品属性status=-1,start=0,limit=200,knowledgeId=1
+2017-10-21 15:26:59   INFO  [http-nio-9998-exec-4][SubjectServiceImpl.java:233] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s. id=ks.subjectid order by ks.serial desc;
+2017-10-21 15:42:58   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 2876 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 15:42:58   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 15:42:58   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 15:43:04   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 15:43:04   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 15:43:04   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 15:43:04   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 15:43:04   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 15:43:04   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 15:43:04   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-21 15:43:09   ERROR [main][DirectJDKLog.java:181] - Failed to start end point associated with ProtocolHandler [http-nio-9998]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+2017-10-21 15:43:09   ERROR [main][DirectJDKLog.java:181] - Failed to start connector [Connector[HTTP/1.1-9998]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9998]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Pausing ProtocolHandler ["http-nio-9998"]
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Stopping service Tomcat
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Stopping ProtocolHandler ["http-nio-9998"]
+2017-10-21 15:43:09   INFO  [main][DirectJDKLog.java:179] - Destroying ProtocolHandler ["http-nio-9998"]
+2017-10-21 15:43:20   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:81] - req_uri=/knowledge/page.html,pathInfo=
+2017-10-21 15:43:20   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:43:20   DEBUG [http-nio-9998-exec-8][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:43:20   DEBUG [http-nio-9998-exec-8][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 15:43:21   DEBUG [http-nio-9998-exec-8][DruidDataSource.java:1191] - skip not validate connection.
+2017-10-21 15:43:22   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/knowledge/list.json,pathInfo=
+2017-10-21 15:43:22   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:43:22   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:43:22   INFO  [http-nio-9998-exec-7][KnowledgeRestController.java:92] - 获取知识点status=-1,关键字=,typeid=0,start=0,limit=10
+2017-10-21 15:51:16   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:81] - req_uri=/subject/listbyknow.json,pathInfo=
+2017-10-21 15:51:16   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 15:51:16   DEBUG [http-nio-9998-exec-9][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 15:51:16   INFO  [http-nio-9998-exec-9][SubjectRestController.java:293] - 获取商品属性status=-1,start=0,limit=200,knowledgeId=1
+2017-10-21 15:51:17   DEBUG [http-nio-9998-exec-9][DruidDataSource.java:1191] - skip not validate connection.
+2017-10-21 15:51:18   INFO  [http-nio-9998-exec-9][SubjectServiceImpl.java:233] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s. id=ks.subjectid order by ks.serial desc;
+2017-10-21 15:55:29   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed
+2017-10-21 16:04:34   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 7680 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 16:04:34   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 16:04:34   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 16:04:39   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 16:04:39   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 16:04:39   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 16:04:39   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 16:04:39   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 16:04:39   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 16:04:40   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 16:04:48   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-21 16:04:48   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-21 16:04:48   INFO  [main][DirectJDKLog.java:179] - Using a shared selector for servlet write/read
+2017-10-21 16:04:48   INFO  [main][StartupInfoLogger.java:57] - Started Application in 15.087 seconds (JVM running for 17.27)
+2017-10-21 16:04:57   INFO  [http-nio-9998-exec-1][DirectJDKLog.java:179] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-10-21 16:04:58   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:81] - req_uri=/knowledge/page.html,pathInfo=
+2017-10-21 16:04:58   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 16:04:58   DEBUG [http-nio-9998-exec-1][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 16:04:58   DEBUG [http-nio-9998-exec-1][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 16:04:59   INFO  [http-nio-9998-exec-1][DruidDataSource.java:847] - {dataSource-1} inited
+2017-10-21 16:05:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:81] - req_uri=/knowledge/list.json,pathInfo=
+2017-10-21 16:05:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 16:05:04   DEBUG [http-nio-9998-exec-3][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 16:05:04   INFO  [http-nio-9998-exec-3][KnowledgeRestController.java:92] - 获取知识点status=-1,关键字=,typeid=0,start=0,limit=10
+2017-10-21 16:07:53   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:81] - req_uri=/knowledge/edit.html,pathInfo=
+2017-10-21 16:07:53   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 16:07:53   DEBUG [http-nio-9998-exec-2][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 16:07:53   INFO  [http-nio-9998-exec-2][KnowledgeController.java:71] - 需要修改knowledge的id:1
+2017-10-21 16:07:54   DEBUG [http-nio-9998-exec-2][CookiesUtil.java:80] - 获取解密的数据：52jpwJZ/t7A8CIZlS9lglQ==
+2017-10-21 16:08:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:81] - req_uri=/subject/listbyknow.json,pathInfo=
+2017-10-21 16:08:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:91] - initParam=adminid
+2017-10-21 16:08:20   DEBUG [http-nio-9998-exec-7][AuthorizationFilter.java:101] - check user login :1
+2017-10-21 16:08:20   INFO  [http-nio-9998-exec-7][SubjectRestController.java:293] - 获取商品属性status=-1,start=0,limit=1000,knowledgeId=1
+2017-10-21 16:08:20   INFO  [http-nio-9998-exec-7][SubjectServiceImpl.java:233] - sql=select s.*,ks.serial as ext_serial  from t_subject s,t_knowledge_subject ks   where 1=1 and ks.knowledgeid=?  and  s. id=ks.subjectid order by ks.serial asc;
+2017-10-21 16:15:44   INFO  [main][StartupInfoLogger.java:48] - Starting Application on tengxiao-PC with PID 6132 (F:\Project\shop-git\ukeli-education\ukeli-manager\target\classes started by tengxiao in F:\Project\shop-git\ukeli-education\ukeli-manager)
+2017-10-21 16:15:44   DEBUG [main][StartupInfoLogger.java:51] - Running with Spring Boot v1.5.2.RELEASE, Spring v4.3.7.RELEASE
+2017-10-21 16:15:44   INFO  [main][SpringApplication.java:641] - The following profiles are active: dev
+2017-10-21 16:15:48   INFO  [main][DirectJDKLog.java:179] - Starting service Tomcat
+2017-10-21 16:15:48   INFO  [main][DirectJDKLog.java:179] - Starting Servlet Engine: Apache Tomcat/8.5.11
+2017-10-21 16:15:49   INFO  [localhost-startStop-1][DirectJDKLog.java:179] - Initializing Spring embedded WebApplicationContext
+2017-10-21 16:15:49   INFO  [localhost-startStop-1][WebServletConfig.java:69] - 初始化图片验证码参数:{width=90, type=1, height=30}
+2017-10-21 16:15:49   INFO  [localhost-startStop-1][WebServletConfig.java:86] - 初始化上传文件参数:{baseUrl=, uploadFilePath=, allowedExt=jpg,gif,png,jpeg,xlsx, maxSize=200}
+2017-10-21 16:15:49   INFO  [localhost-startStop-1][WebFilerConfig.java:60] - 初始化filter参数:{initParam=adminid, loginUrl=login.html, ignore=/login.html,/login.json,/getvm.html, pathInfo=}
+2017-10-21 16:15:49   INFO  [localhost-startStop-1][SysListener.java:62] - init system.path=F:/Project/shop-git/ukeli-education/ukeli-manager/src/main/webapp/
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Initializing ProtocolHandler ["http-nio-9998"]
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Starting ProtocolHandler [http-nio-9998]
+2017-10-21 16:15:54   ERROR [main][DirectJDKLog.java:181] - Failed to start end point associated with ProtocolHandler [http-nio-9998]
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+2017-10-21 16:15:54   ERROR [main][DirectJDKLog.java:181] - Failed to start connector [Connector[HTTP/1.1-9998]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-9998]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) [tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:247) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:190) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545) [spring-context-4.3.7.RELEASE.jar:4.3.7.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151) [spring-boot-1.5.2.RELEASE.jar:1.5.2.RELEASE]
+	at cn.javaworker.yeming.Application.main(Application.java:35) [classes/:?]
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1000) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:1.8.0_121]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:1.8.0_121]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:980) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:573) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:993) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.11.jar:8.5.11]
+	... 13 more
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Pausing ProtocolHandler ["http-nio-9998"]
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Stopping service Tomcat
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Stopping ProtocolHandler ["http-nio-9998"]
+2017-10-21 16:15:54   INFO  [main][DirectJDKLog.java:179] - Destroying ProtocolHandler ["http-nio-9998"]
+2017-10-21 16:15:56   INFO  [RMI TCP Connection(2)-192.168.56.1][DruidDataSource.java:1608] - {dataSource-1} closed

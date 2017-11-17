@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ukeli.iml" filepath="$PROJECT_DIR$/ukeli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-core/ukeli-core.iml" filepath="$PROJECT_DIR$/ukeli-core/ukeli-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-manager/ukeli-manager.iml" filepath="$PROJECT_DIR$/ukeli-manager/ukeli-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-pojo/ukeli-pojo.iml" filepath="$PROJECT_DIR$/ukeli-pojo/ukeli-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-sorces/ukeli-sorces.iml" filepath="$PROJECT_DIR$/ukeli-sorces/ukeli-sorces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-utils/ukeli-utils.iml" filepath="$PROJECT_DIR$/ukeli-utils/ukeli-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ukeli-web/ukeli-web.iml" filepath="$PROJECT_DIR$/ukeli-web/ukeli-web.iml" />
+    </modules>
+  </component>
+</project>
